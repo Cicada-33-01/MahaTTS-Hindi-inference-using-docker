@@ -1,4 +1,4 @@
-# Text-to-Speech Inference with Docker
+# Hindi Text-to-Speech Inference with Docker
 
 This project uses a pre-trained TTS (Text-to-Speech) model to generate audio from text input based on a reference speaker. The setup is containerized using Docker to handle all dependencies seamlessly.
 
