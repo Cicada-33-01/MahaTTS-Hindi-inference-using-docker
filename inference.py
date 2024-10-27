@@ -26,4 +26,4 @@ ref_clips = glob.glob(speaker[speaker_num]+'*.wav')
 print(ref_clips)
 audio,sr = infer_tts(text,ref_clips,diffuser,diff_model,ts_model,vocoder,language)
 
-write('./generated_audio/test.wav',sr,audio)
+write('./generated-audio/test.wav',sr,audio)
